@@ -3,7 +3,7 @@ import { InView } from "./InView";
 
 export function registerInView(
   plasmic: PlasmicLoader,
-  modulePath = "@fullstackhouse/plasmic-utils/dist",
+  modulePath = "@myevaluations/myevals-plasmic-utils/dist",
 ) {
   plasmic.registerComponent(InView, {
     name: "InView",

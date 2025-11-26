@@ -3,7 +3,7 @@ import { DebounceProvider } from "./DebounceProvider";
 
 export function registerDebounceProvider(
   plasmic: PlasmicLoader,
-  modulePath = "@fullstackhouse/plasmic-utils/dist",
+  modulePath = "@myevaluations/myevals-plasmic-utils/dist",
 ) {
   plasmic.registerComponent(DebounceProvider, {
     name: "DebounceProvider",

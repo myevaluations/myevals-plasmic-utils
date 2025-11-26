@@ -3,7 +3,7 @@ import { HighlightedText } from "./HighlightedText";
 
 export function registerHighlightedText(
   plasmic: PlasmicLoader,
-  modulePath = "@fullstackhouse/plasmic-utils/dist",
+  modulePath = "@myevaluations/myevals-plasmic-utils/dist",
 ) {
   plasmic.registerComponent(HighlightedText, {
     name: "HighlightedText",
