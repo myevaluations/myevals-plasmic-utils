@@ -3,7 +3,7 @@ import { HiddenIfEmptyContainer } from "./HiddenIfEmptyContainer";
 
 export function registerHiddenIfEmptyContainer(
   plasmic: PlasmicLoader,
-  modulePath = "@fullstackhouse/plasmic-utils/dist",
+  modulePath = "@myevaluations/myevals-plasmic-utils/dist",
 ) {
   plasmic.registerComponent(HiddenIfEmptyContainer, {
     name: "HiddenIfEmptyContainer",

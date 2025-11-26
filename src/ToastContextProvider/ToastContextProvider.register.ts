@@ -3,7 +3,7 @@ import { ToastContextProvider } from "./ToastContextProvider";
 
 export function registerToastContextProvider(
   plasmic: PlasmicLoader,
-  modulePath = "@fullstackhouse/plasmic-utils/dist",
+  modulePath = "@myevaluations/myevals-plasmic-utils/dist",
 ) {
   plasmic.registerGlobalContext(ToastContextProvider, {
     name: "ToastContext",

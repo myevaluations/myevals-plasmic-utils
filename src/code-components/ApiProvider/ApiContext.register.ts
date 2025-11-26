@@ -3,7 +3,7 @@ import { ApiContextProvider } from "./ApiContext";
 
 export function registerApiContextProvider(
   plasmic: PlasmicLoader,
-  modulePath = "@fullstackhouse/plasmic-utils/dist",
+  modulePath = "@myevaluations/myevals-plasmic-utils/dist",
 ) {
   plasmic.registerGlobalContext(ApiContextProvider, {
     name: "ApiContext",

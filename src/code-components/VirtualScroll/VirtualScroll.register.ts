@@ -3,7 +3,7 @@ import { VirtualScrollList } from "./VirtualScroll";
 
 export function registerVirtualScrollList(
   plasmic: PlasmicLoader,
-  modulePath = "@fullstackhouse/plasmic-utils/dist",
+  modulePath = "@myevaluations/myevals-plasmic-utils/dist",
 ) {
   plasmic.registerComponent(VirtualScrollList, {
     name: "VirtualScrollList",
