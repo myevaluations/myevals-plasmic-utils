@@ -4,10 +4,10 @@ on:
   # Disabled - not publishing to npm
   # release:
   #   types: [published]
-  # workflow_dispatch:
-  #   inputs:
-  #     version:
-  #       type: string
+  workflow_dispatch:
+    inputs:
+      version:
+        type: string
 
 permissions:
   contents: read
