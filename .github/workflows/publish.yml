@@ -45,7 +45,7 @@ jobs:
       - uses: fullstackhouse/slack-notify-action@v1
         with:
           bot-token: ${{ secrets.FSH_SLACK_BOT_TOKEN }}
-          channel: "#fsh-alerts"
+          channel: "#myevals-alerts"
           title: "plasmic-utils — publish failed"
           message: "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           status: failure
