@@ -36,7 +36,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-highlight-words": "^0.20.0",
-    "@vitejs/plugin-react": "^4.3.2",
+    "@vitejs/plugin-react": "^6.0.0",
     "dayjs": "^1.11.10",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
@@ -45,7 +45,7 @@
     "jsdom": "^25.0.1",
     "lodash.isequal": "^4.5.0",
     "msw": "^2.4.11",
-    "next": "14.2.5",
+    "next": "15.5.29",
     "prettier": "^3.3.3",
     "quill-image-drop-and-paste": "^2.0.1",
     "react": "^18",
@@ -56,7 +56,7 @@
     "swr": "^2.2.5",
     "use-debounce": "^10.0.4",
     "virtua": "^0.35.1",
-    "vitest": "^2.0.2",
+    "vitest": "^4.1.11",
     "zod": "^3.22.4"
   },
   "peerDependencies": {
